@@ -40,21 +40,15 @@ Proyek ini mempraktikkan 4 tahap analitik utama:
 ## 🚀 Cara Menjalankan Proyek
 
 **Persyaratan Sistem:**
-Pastikan Anda telah menginstal Python 3.7+ dan pustaka berikut:
+instal Python 3.7+ dan pustaka berikut:
 * `pandas`
 * `numpy`
 * `scikit-learn`
 
-Anda bisa menginstalnya via `pip`:
-
-```bash
-pip install pandas numpy scikit-learn
-```
-
 **Langkah-langkah Eksekusi:**
 
 1. **(Opsional) Generate ulang dataset:**
-   Jika Anda ingin membuat dataset baru dengan *seed* yang sama atau mengubah parameter jumlah data, jalankan:
+   Jika ingin membuat dataset baru dengan *seed* yang sama atau mengubah parameter jumlah data, jalankan:
    ```bash
    python generate_dataset.py
    ```
